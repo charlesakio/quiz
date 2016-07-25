@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Quiz XML -->
+<quiz name="Jquery quiz">
+  <title>Jquery Quiz</title>
+  <description>An interactive quiz to know more about Jquery</description>
+  <!-- Question portion -->
+  <question id="q1">
+    <text>What is the XML called?</text>
+    <choices>
+      <choice correct="true">Extensible Markup Language</choice>
+      <choice>Excellent Management Language</choice>
+      <choice>Esoteric Markup Language</choice>
+      <choice>Easy Markup Language</choice>
+    </choices>
+  </question>
+
+
+  <question id="q2">
+    <text>What are the three relationships possible in the jquery XML file?</text>
+    <choices>
+      <choice>Children, Parent, Cousin</choice>
+      <choice>Parent, Grandma, Child</choice>
+      <choice>Parent, Grandpa, Child</choice>
+      <choice correct="true">Parent, Sibling, Child</choice>
+    </choices>
+  </question>
+  
+  <question id="q3">
+    <text>What is the right selector?</text>
+    <choices>
+      <choice correct="true">$('[href=#]')</choice>
+      <choice>$('{href=#}')</choice>
+      <choice>$('href=#')</choice>
+      <choice>$(href=#)</choice>
+    </choices>
+  </question>
+
+  <question id="q4">
+    <text>Identify a relationship selector</text>
+    <choices>
+      <choice>$('#temp').grandpa()</choice>
+      <choice>$('#temp').cousin()</choice>
+      <choice correct="true">$('#temp').children()</choice>
+      <choice>$('#temp').childrens()</choice>
+    </choices>
+  </question>
+
+  <question id="q5">
+    <text>Which is a Jquery Effect Methods</text>
+    <choices>
+      <choice correct="true">show()</choice>
+      <choice>beam()</choice>
+      <choice>slide()</choice>
+      <choice>down()</choice>
+    </choices>
+  </question>
+</quiz>

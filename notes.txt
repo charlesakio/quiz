@@ -1,0 +1,6 @@
+TODO:
+ [] Add 5 Questions
+ [] Create layout and user flow for quiz 
+ [x] Render first quiz
+ [] Attempt first correct answer
+ [] Finish the whole quiz
